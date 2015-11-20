@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D98E9CC1BFACAD200B3586B /* lightNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9C61BFACAD200B3586B /* lightNormal.png */; };
+		4D98E9CD1BFACAD200B3586B /* lightSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9C71BFACAD200B3586B /* lightSelect.png */; };
+		4D98E9CE1BFACAD200B3586B /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9C81BFACAD200B3586B /* noticeMusic.wav */; };
+		4D98E9CF1BFACAD200B3586B /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9C91BFACAD200B3586B /* scanLine@2x.png */; };
+		4D98E9D01BFACAD200B3586B /* scanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9CA1BFACAD200B3586B /* scanLine@3x.png */; };
+		4D98E9D11BFACAD200B3586B /* scanscanBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D98E9CB1BFACAD200B3586B /* scanscanBg.png */; };
+		4D98E9D41BFB12C600B3586B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98E9D31BFB12C600B3586B /* ViewController.m */; };
+		4D98E9D71BFB136D00B3586B /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98E9D61BFB136D00B3586B /* SelfViewController.m */; };
+		4D98E9DD1BFB1C3F00B3586B /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98E9DC1BFB1C3F00B3586B /* UIImage+QRCode.m */; };
+		4D98E9E01BFB1CB400B3586B /* SHBQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98E9DF1BFB1CB400B3586B /* SHBQRView.m */; };
+		4D98E9E31BFB207800B3586B /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98E9E21BFB207800B3586B /* TempViewController.m */; };
+		4DD8F5821BFC4BEA00A0D184 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8F5811BFC4BEA00A0D184 /* 4.png */; };
+		4DD8F5F11BFC6E5E00A0D184 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F5F01BFC6E5E00A0D184 /* MenuViewController.m */; };
+		4DE4B7B31BFAC9CB0037F45A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B7B21BFAC9CB0037F45A /* main.m */; };
+		4DE4B7B61BFAC9CB0037F45A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B7B51BFAC9CB0037F45A /* AppDelegate.m */; };
+		4DE4B7B81BFAC9CB0037F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE4B7B71BFAC9CB0037F45A /* Assets.xcassets */; };
+		4DE4B7BB1BFAC9CB0037F45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE4B7B91BFAC9CB0037F45A /* LaunchScreen.storyboard */; };
+		4DE4B7C41BFAC9D80037F45A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4B7C31BFAC9D80037F45A /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D98E9C61BFACAD200B3586B /* lightNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightNormal.png; sourceTree = "<group>"; };
+		4D98E9C71BFACAD200B3586B /* lightSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightSelect.png; sourceTree = "<group>"; };
+		4D98E9C81BFACAD200B3586B /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
+		4D98E9C91BFACAD200B3586B /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
+		4D98E9CA1BFACAD200B3586B /* scanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@3x.png"; sourceTree = "<group>"; };
+		4D98E9CB1BFACAD200B3586B /* scanscanBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanscanBg.png; sourceTree = "<group>"; };
+		4D98E9D21BFB12C600B3586B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D98E9D31BFB12C600B3586B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D98E9D51BFB136D00B3586B /* SelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		4D98E9D61BFB136D00B3586B /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
+		4D98E9DB1BFB1C3F00B3586B /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		4D98E9DC1BFB1C3F00B3586B /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		4D98E9DE1BFB1CB400B3586B /* SHBQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBQRView.h; sourceTree = "<group>"; };
+		4D98E9DF1BFB1CB400B3586B /* SHBQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBQRView.m; sourceTree = "<group>"; };
+		4D98E9E11BFB207800B3586B /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		4D98E9E21BFB207800B3586B /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		4DD8F5811BFC4BEA00A0D184 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4DD8F5EF1BFC6E5D00A0D184 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		4DD8F5F01BFC6E5E00A0D184 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4DE4B7AE1BFAC9CB0037F45A /* QRCode_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE4B7B21BFAC9CB0037F45A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DE4B7B41BFAC9CB0037F45A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DE4B7B51BFAC9CB0037F45A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DE4B7B71BFAC9CB0037F45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE4B7BA1BFAC9CB0037F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE4B7BC1BFAC9CB0037F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE4B7C21BFAC9D80037F45A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4DE4B7C31BFAC9D80037F45A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE4B7AB1BFAC9CB0037F45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE4B7A51BFAC9CB0037F45A = {
+			isa = PBXGroup;
+			children = (
+				4DE4B7B01BFAC9CB0037F45A /* QRCode_Demo */,
+				4DE4B7AF1BFAC9CB0037F45A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE4B7AF1BFAC9CB0037F45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B7AE1BFAC9CB0037F45A /* QRCode_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE4B7B01BFAC9CB0037F45A /* QRCode_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4D98E9C61BFACAD200B3586B /* lightNormal.png */,
+				4D98E9C71BFACAD200B3586B /* lightSelect.png */,
+				4D98E9C81BFACAD200B3586B /* noticeMusic.wav */,
+				4D98E9C91BFACAD200B3586B /* scanLine@2x.png */,
+				4D98E9CA1BFACAD200B3586B /* scanLine@3x.png */,
+				4D98E9CB1BFACAD200B3586B /* scanscanBg.png */,
+				4DE4B7B41BFAC9CB0037F45A /* AppDelegate.h */,
+				4DE4B7B51BFAC9CB0037F45A /* AppDelegate.m */,
+				4D98E9D21BFB12C600B3586B /* ViewController.h */,
+				4D98E9D31BFB12C600B3586B /* ViewController.m */,
+				4DD8F5EF1BFC6E5D00A0D184 /* MenuViewController.h */,
+				4DD8F5F01BFC6E5E00A0D184 /* MenuViewController.m */,
+				4D98E9E11BFB207800B3586B /* TempViewController.h */,
+				4D98E9E21BFB207800B3586B /* TempViewController.m */,
+				4D98E9D51BFB136D00B3586B /* SelfViewController.h */,
+				4D98E9D61BFB136D00B3586B /* SelfViewController.m */,
+				4DE4B7C21BFAC9D80037F45A /* RootViewController.h */,
+				4DE4B7C31BFAC9D80037F45A /* RootViewController.m */,
+				4D98E9DB1BFB1C3F00B3586B /* UIImage+QRCode.h */,
+				4D98E9DC1BFB1C3F00B3586B /* UIImage+QRCode.m */,
+				4D98E9DE1BFB1CB400B3586B /* SHBQRView.h */,
+				4D98E9DF1BFB1CB400B3586B /* SHBQRView.m */,
+				4DD8F5811BFC4BEA00A0D184 /* 4.png */,
+				4DE4B7B71BFAC9CB0037F45A /* Assets.xcassets */,
+				4DE4B7B91BFAC9CB0037F45A /* LaunchScreen.storyboard */,
+				4DE4B7BC1BFAC9CB0037F45A /* Info.plist */,
+				4DE4B7B11BFAC9CB0037F45A /* Supporting Files */,
+			);
+			path = QRCode_Demo;
+			sourceTree = "<group>";
+		};
+		4DE4B7B11BFAC9CB0037F45A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4B7B21BFAC9CB0037F45A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE4B7AD1BFAC9CB0037F45A /* QRCode_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE4B7BF1BFAC9CB0037F45A /* Build configuration list for PBXNativeTarget "QRCode_Demo" */;
+			buildPhases = (
+				4DE4B7AA1BFAC9CB0037F45A /* Sources */,
+				4DE4B7AB1BFAC9CB0037F45A /* Frameworks */,
+				4DE4B7AC1BFAC9CB0037F45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCode_Demo;
+			productName = QRCode_Demo;
+			productReference = 4DE4B7AE1BFAC9CB0037F45A /* QRCode_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE4B7A61BFAC9CB0037F45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "沈红榜";
+				TargetAttributes = {
+					4DE4B7AD1BFAC9CB0037F45A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DE4B7A91BFAC9CB0037F45A /* Build configuration list for PBXProject "QRCode_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE4B7A51BFAC9CB0037F45A;
+			productRefGroup = 4DE4B7AF1BFAC9CB0037F45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE4B7AD1BFAC9CB0037F45A /* QRCode_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE4B7AC1BFAC9CB0037F45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD8F5821BFC4BEA00A0D184 /* 4.png in Resources */,
+				4D98E9D01BFACAD200B3586B /* scanLine@3x.png in Resources */,
+				4DE4B7B81BFAC9CB0037F45A /* Assets.xcassets in Resources */,
+				4D98E9CC1BFACAD200B3586B /* lightNormal.png in Resources */,
+				4D98E9CE1BFACAD200B3586B /* noticeMusic.wav in Resources */,
+				4D98E9D11BFACAD200B3586B /* scanscanBg.png in Resources */,
+				4D98E9CD1BFACAD200B3586B /* lightSelect.png in Resources */,
+				4DE4B7BB1BFAC9CB0037F45A /* LaunchScreen.storyboard in Resources */,
+				4D98E9CF1BFACAD200B3586B /* scanLine@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE4B7AA1BFAC9CB0037F45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE4B7B61BFAC9CB0037F45A /* AppDelegate.m in Sources */,
+				4DD8F5F11BFC6E5E00A0D184 /* MenuViewController.m in Sources */,
+				4DE4B7B31BFAC9CB0037F45A /* main.m in Sources */,
+				4D98E9D41BFB12C600B3586B /* ViewController.m in Sources */,
+				4DE4B7C41BFAC9D80037F45A /* RootViewController.m in Sources */,
+				4D98E9E31BFB207800B3586B /* TempViewController.m in Sources */,
+				4D98E9E01BFB1CB400B3586B /* SHBQRView.m in Sources */,
+				4D98E9DD1BFB1C3F00B3586B /* UIImage+QRCode.m in Sources */,
+				4D98E9D71BFB136D00B3586B /* SelfViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DE4B7B91BFAC9CB0037F45A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE4B7BA1BFAC9CB0037F45A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE4B7BD1BFAC9CB0037F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DE4B7BE1BFAC9CB0037F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE4B7C01BFAC9CB0037F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QRCode_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cribn.www.QRCode-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DE4B7C11BFAC9CB0037F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QRCode_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cribn.www.QRCode-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE4B7A91BFAC9CB0037F45A /* Build configuration list for PBXProject "QRCode_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE4B7BD1BFAC9CB0037F45A /* Debug */,
+				4DE4B7BE1BFAC9CB0037F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE4B7BF1BFAC9CB0037F45A /* Build configuration list for PBXNativeTarget "QRCode_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE4B7C01BFAC9CB0037F45A /* Debug */,
+				4DE4B7C11BFAC9CB0037F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE4B7A61BFAC9CB0037F45A /* Project object */;
+}
