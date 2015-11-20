@@ -37,7 +37,7 @@
     [self.view addSubview:imgView];
     
     
-    imgView.image = [UIImage qrImageWithContent:@"www.baidu.com" logo:[UIImage imageNamed:@"4"] size:width red:20 green:100 blue:100];
+    imgView.image = [UIImage qrImageWithContent:@"www.baidu.com" logo:[UIImage imageNamed:@"4444"] size:width red:20 green:100 blue:100];
     
     
     
